@@ -1,617 +1,400 @@
-
 <!DOCTYPE html>
-<html lang="zxx">
-
+<html>
 <head>
-    <title>Home</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta charset="utf-8" />
-    <meta name="keywords" content="" />
-    <script>
-        addEventListener("load", function () {
-            setTimeout(hideURLbar, 0);
-        }, false);
-
-        function hideURLbar() {
-            window.scrollTo(0, 1);
-        }
-    </script>
-    <!-- Custom Theme files -->
-    <link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
-    <link href="css/style.css" type="text/css" rel="stylesheet" media="all">
-    <!-- navigation -->
-    <link href="css/nav.css" type="text/css" rel="stylesheet" media="all">
-    <!-- font-awesome icons -->
-    <link href="css/font-awesome.min.css" rel="stylesheet">
-    <!-- online-fonts -->
-    <link href="http://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i"
-        rel="stylesheet">
-    <link href="http://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
+<title>吴晓雪的首页</title>
+<!--mobile apps-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="My Resume Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+	SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!--mobile apps-->
+<!--Custom Theme files-->
+<link rel="shortcut icon" href="images/your_ico.ico" type="image/x-icon">
+<link rel="icon" href="images/your_ico.ico" type="image/x-icon">
+<link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+<link href="css/style.css" type="text/css" rel="stylesheet" media="all">
+<link rel="stylesheet" href="css/swipebox.css">
+<!--//Custom Theme files-->
+<!--js-->
+<script src="js/jquery-1.11.1.min.js"></script> 
+<!-- //js -->
+<!--web-fonts-->
+<!--<link href='//fonts.googleapis.com/css?family=Overlock:400,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>-->
+<!--<link href='//fonts.googleapis.com/css?family=Roboto+Condensed:400,300,300italic,400italic,700,700italic' rel='stylesheet' type='text/css'>-->
+<!--//web-fonts-->
+<!--start-smooth-scrolling-->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>	
+<script type="text/javascript">
+		jQuery(document).ready(function($) {
+			$(".scroll").click(function(event){		
+				event.preventDefault();
+				$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+			});
+		});
+</script>
+<!--//end-smooth-scrolling-->
 </head>
-
 <body>
-	<audio src="南波万.mp3" autoplay loop></audio>
-    <div id="home">
-        <!-- header -->
-        <header>
-            <div class="container">
-                <div class="header d-lg-flex justify-content-between align-items-center">
-                    <div class="header-wthree">
-                        <h1>&nbsp; </h1>
-                    </div>
-                    <div class="nav_w3ls">
-                        <nav>
-                            <input class="menu-btn" type="checkbox" id="menu-btn" />
-                            <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
-                            <ul class="menu">
-                                <li class="nav-item"><a class="nav-link" href="index.html">/&nbsp;吴</a></li>
-                                <li class="nav-item"><a class="nav-link" href="#about">晓</a></li>
-                                <li class="nav-item"><a class="nav-link" href="#services">雪</a></li>
-                                <li class="dropdown nav-item">
-                                    <a href="#" class="dropbtn nav-link">的</a>
-                                    <div class="dropdown-content  show">
-                                        <a href="#plans" class="nav-link">Pricing</a>
-                                        <a class="nav-link" href="#portfolio">Portfolio</a>
-                                        <a href="#stats" class="nav-link">stats</a>
-                                        <a href="#testi" class="nav-link">Testimonials</a>
-                                    </div>
-                                </li>
-                                <li class="nav-item"><a class="nav-link" href="#team">主</a></li>
-                                <li class="nav-item"><a class="nav-link" href="#contact">页&nbsp;/</a></li>
+<audio  autoplay="autoplay">
+  <source src="images/南波万.mp3" type="audio/mpeg" />
+</audio>
+	<!--banner-->
+	<div id="home" class="banner">
+		<div class="banner-info">
+			<div class="container">
+				<div class="col-md-4 header-left">
+					<img src="images/1.jpg" alt=""/>
+				</div>
+				<div class="col-md-8 header-right">
+					<h2>Hello</h2>
+					<h1>My name is Wuxiaoxue</h1>
+					<h6>华东交通大学经济统计学2021-1</h6>
+					<ul class="address">
+						<li>
+							<ul class="address-text">
+								<li><b>出生日期</b></li>
+								<li>2003-05-30</li>
+							</ul>
+						</li>
+						<li>
+							<ul class="address-text">
+								<li><b>联系电话 </b></li>
+								<li>113467245872</li>
+							</ul>
+						</li>
+						<li>
+							<ul class="address-text">
+								<li><b>居住地址 </b></li>
+								<li>山西省运城市临猗县</li>
+							</ul>
+						</li>
+						<li>
+							<ul class="address-text">
+								<li><b>个人邮箱 </b></li>
+								<li><a href="http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=OwoLDg0MAwgIDgJ7SkoVWFRW" target="_blank"> 2034309488@qq.com</a></li>
+							</ul>
+						</li>
+						
+					</ul>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<!--//banner-->
+	<!--top-nav-->
+	<div class="top-nav wow">
+		<div class="container">
+			<div class="navbar-header logo">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					导航
+				</button>
+			</div>
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<div class="menu">
+					<ul class="nav navbar">
+						<li><a href="#about" class="scroll">关于我</a></li>
+						<li><a href="#work" class="scroll">个人经历</a></li>
+						<li><a href="#education" class="scroll">教育背景</a></li>
+						<li><a href="#skills" class="scroll">专业技能</a></li>
+						<li><a href="#projects" class="scroll">部分作品</a></li>
+						<li><a href="#contact" class="scroll">联系我们</a></li>
+					</ul>
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+		</div>
+	</div>	
+	<!--//top-nav-->
+	<!--about-->
+	<div id="about" class="about">
+		<div class="container">
+			<h3 class="title"> 兴趣爱好</h3>
+			<div class="col-md-8 about-left">
+				<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;跳舞，对我而言，不仅是一种艺术，更是一种独特的表达方式，是我生活中不可或缺的一部分。每当我感受到音乐的节奏，身体仿佛被音符激活，我就忍不住跃动起来，沉浸在舞蹈的海洋中。舞蹈是我自由释放情感的途径。当我踏上舞台，那一刻我仿佛拥有了整个世界。音乐的律动引导我舞动身姿，每一个动作都承载着我内心深处的情感。舞蹈让我能够表达那些无法用语言描述的感受，使我沉浸在一种独特的愉悦和自由中。跳舞也是一项对身体素质的锻炼。舞蹈需要身体的协调性和灵活性，每一个动作都需要精准的掌握。在不断练习的过程中，我的身体变得更加柔软，力量也逐渐增强。这种锻炼不仅使我更加健康，同时也培养了我的毅力和耐心</p>
+				<p><img src="images/东.jpg" height="100" alt=""></p>
+			</div>
+			<div class="col-md-4 about-right">
+				<ul>
+					<h5>喜欢的综艺</h5>
+					<li><span class="glyphicon glyphicon-menu-right" ></span> 名侦探学院</li>
+					<li><span class="glyphicon glyphicon-menu-right"></span> 密室大逃脱大神版</li>
+					<li><span class="glyphicon glyphicon-menu-right"></span> 森林进化论</li>
+					<li><span class="glyphicon glyphicon-menu-right"></span> 跳进地理书的旅行</li>
+					<li><span class="glyphicon glyphicon-menu-right"></span> ..................................... </li>
+				</ul>
+				<div class="clearfix"> </div>
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+	</div>
+	<!--//about-->
+	<!--work-experience-->
+	<div id="work" class="work">
+		<div class="container">
+			<h3 class="title">对未来的期待</h3>
+			<div class="work-info"> 
+				<div class="col-md-6 work-left"> 
+					
+				</div>
+				<div class="col-md-6 work-right"> 
+					<h5><span class="glyphicon glyphicon-briefcase"></span>1 </h5>
+					<p>身体健康</p>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<div class="work-info"> 
+				<div class="col-md-6 work-right work-right2"> 
+					
+				</div>
+				<div class="col-md-6 work-left work-left2"> 
+					<h5> <span class="glyphicon glyphicon-briefcase"> </span>2</h5>
+					<p>坚持锻炼 </p>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<div class="work-info"> 
+				<div class="col-md-6 work-left"> 
+					
+				</div>
+				<div class="col-md-6 work-right"> 
+					<h5><span class="glyphicon glyphicon-briefcase"> </span> 3</h5>
+					<p>努力学习 </p>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<div class="work-info"> 
+				<div class="col-md-6 work-right work-right2"> 
+					
+				</div>
+				<div class="col-md-6 work-left work-left2"> 
+					<h5><span class="glyphicon glyphicon-briefcase"></span> 4</h5>
+					<p>挣超多钱 </p>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<!--//work-experience-->
+	<!--education-->
+	<div id="education" class="education">
+		<div class="container">
+			<h3 class="title">教育背景</h3>
+			<div class="work-info"> 
+				<div class="col-md-6 work-left"> 
+					<h4>Master Degree - 2015</h4>
+				</div>
+				<div class="col-md-6 work-right"> 
+					<h5><span class="glyphicon glyphicon-education"> </span> 示范小学</h5>
+					<p> </p>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<div class="work-info"> 
+				<div class="col-md-6 work-right work-right2"> 
+					<h4>2015-2018</h4>
+				</div>
+				<div class="col-md-6 work-left work-left2"> 
+					<h5><span class="glyphicon glyphicon-education"></span> 东康中学</h5>
+					<p> </p>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<div class="work-info"> 
+				<div class="col-md-6 work-left"> 
+					<h4>2018-2021</h4>
+				</div>
+				<div class="col-md-6 work-right"> 
+					<h5><span class="glyphicon glyphicon-education"> </span> 盐化中学</h5>
+					<p> </p>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<!--//education-->
+	<!--skills-->
+	<div id="skills" class="skills">
+		<div class="container">
+			<h3 class="title">视频</h3>
+			<div class="skills-info">
+				
+				<p align="center"><video width="450" height="800" src="images/shipin.mp4" controls="controls"></video></p>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<!--//education-->
+	<!--portfolio-->
+	<div id="projects" class="portfolio">
+		<div class="container">
+			<h3 class="title wow zoomInLeft animated" data-wow-delay=".5s">生活照</h3>
+			<div class="sap_tabs">			
+				<div id="horizontalTab" style="display: block; width: 100%; margin: 0px;">
+					<ul class="resp-tabs-list wow fadeInUp animated" data-wow-delay=".7s">
+						<li class="resp-tab-item"><span>All</span></li>
+					</ul>	
+					<div class="clearfix"> </div>	
+					<div class="resp-tabs-container">
+						<div class="tab-1 resp-tab-content">
+							<div class="tab_img">
+								<div class="col-md-4 portfolio-grids">
+									<div class="grid">
+										<a href="images/g1.jpg" class="swipebox" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis maximus tortor diam, ac lobortis justo rutrum quis. Praesent non purus fermentum, eleifend velit non">
+											<img src="images/g1.jpg" alt="" class="img-responsive" />
+											<div class="figcaption">
+												
+											</div>
+										</a>	
+									</div>
+								</div>
+								<div class="col-md-4 portfolio-grids">
+									<div class="grid effect-sarah">
+										<a href="images/g2.jpg" class="swipebox" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis maximus tortor diam, ac lobortis justo rutrum quis. Praesent non purus fermentum, eleifend velit non">
+											<img src="images/g2.jpg" alt="" class="img-responsive" />
+											<div class="figcaption">
+												
+											</div>
+										</a>	
+									</div>
+								</div>
+								<div class="col-md-4 portfolio-grids">
+									<div class="grid">
+										<a href="images/g3.jpg" class="swipebox" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis maximus tortor diam, ac lobortis justo rutrum quis. Praesent non purus fermentum, eleifend velit non">
+											<img src="images/g3.jpg" alt="" class="img-responsive" />
+											<div class="figcaption">
+												
+											</div>
+										</a>	
+									</div>
+								</div>
+								<div class="col-md-4 portfolio-grids">
+									<div class="grid">
+										<a href="images/g4.jpg" class="swipebox" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis maximus tortor diam, ac lobortis justo rutrum quis. Praesent non purus fermentum, eleifend velit non">
+											<img src="images/g4.jpg" alt="" class="img-responsive" />
+											<div class="figcaption">
+												
+											</div>
+										</a>	
+									</div>
+								</div>
+								
+								<div class="col-md-4 portfolio-grids">
+									<div class="grid">
+										<a href="images/g5.jpg" class="swipebox" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis maximus tortor diam, ac lobortis justo rutrum quis. Praesent non purus fermentum, eleifend velit non">
+											<img src="images/g5.jpg" alt="" class="img-responsive" />
+											<div class="figcaption">
+												
+											</div>
+										</a>	
+									</div>
+								</div>
+								<div class="col-md-4 portfolio-grids">
+									<div class="grid">
+										<a href="images/g6.jpg" class="swipebox" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis maximus tortor diam, ac lobortis justo rutrum quis. Praesent non purus fermentum, eleifend velit non">
+											<img src="images/g6.jpg" alt="" class="img-responsive" />
+											<div class="figcaption">
+											
+											</div>
+										</a>	
+									</div>
+								</div>
+								<div class="col-md-4 portfolio-grids">
+									<div class="grid">
+										<a href="images/g7.jpg" class="swipebox" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis maximus tortor diam, ac lobortis justo rutrum quis. Praesent non purus fermentum, eleifend velit non">
+											<img src="images/g7.jpg" alt="" class="img-responsive" />
+											<div class="figcaption">
+												
+											</div>
+										</a>	
+									</div>
+								</div>
+								<div class="col-md-4 portfolio-grids">
+									<div class="grid">
+										<a href="images/g8.jpg" class="swipebox" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis maximus tortor diam, ac lobortis justo rutrum quis. Praesent non purus fermentum, eleifend velit non">
+											<img src="images/g8.jpg" alt="" class="img-responsive" />
+											<div class="figcaption">
+												
+											</div>
+										</a>	
+									</div>
+								</div>
+								<div class="col-md-4 portfolio-grids">
+									<div class="grid">
+										<a href="images/g9.jpg" class="swipebox" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis maximus tortor diam, ac lobortis justo rutrum quis. Praesent non purus fermentum, eleifend velit non">
+											<img src="images/g9.jpg" alt="" class="img-responsive" />
+											<div class="figcaption">
+												
+											</div>
+										</a>	
+									</div>
+								</div>
+								
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--ResponsiveTabs-->
+			<script src="js/easyResponsiveTabs.js" type="text/javascript"></script>
+			<script type="text/javascript">
+				$(document).ready(function () {
+					$('#horizontalTab').easyResponsiveTabs({
+						type: 'default', //Types: default, vertical, accordion           
+						width: 'auto', //auto or any width like 600px
+						fit: true   // 100% fit in a container
+					});
+				});		
+			</script>
+			<!--//ResponsiveTabs-->
+			<!-- swipe box js -->
+			<script src="js/jquery.swipebox.min.js"></script> 
+				<script type="text/javascript">
+					jQuery(function($) {
+						$(".swipebox").swipebox();
+					});
+			</script>
+			<!-- //swipe box js -->
+		</div>
+	</div>
+	<!--//portfolio-->
+	<!--contact -->
+	
+	<!--//contact -->
+	<!--footer-->
+	<div class="footer">
+		<div class="container">
+			
+		</div>
+	</div>
+	<!--//footer-->
+	<!--smooth-scrolling-of-move-up-->
+	<script type="text/javascript">
+		$(document).ready(function() {
+		
+			var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+			};
+			
+			$().UItoTop({ easingType: 'easeOutQuart' });
+			
+		});
+	</script>
+	<!--//smooth-scrolling-of-move-up-->
+	<!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/bootstrap.js"></script>
+<style>
+.copyrights{text-indent:-9999px;height:0;line-height:0;font-size:0;overflow:hidden;}
+</style>
 
-                            </ul>
-                        </nav>
-                    </div>
-                </div>
-            </div>
-        </header>
-        <!-- //header -->
-        <!-- banner -->
-        <div class="banner">
-            <div class="container">
-                <div class="banner-text">
-                    <div class="slider-info">
-                        <h4>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;吴晓雪</h4>
-                        <span class="line"></span>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- //banner -->
-    </div>
-    <!--  about -->
-    <section class="wthree-slide-btm pt-lg-5" id="about">
-        <div class="container pt-sm-5 pt-4">
-            <div class="title-desc text-center pb-3 pb-lg-5 mb-lg-5">
-                <h3 class="main-title-w3pvt">关于我</h3>
-            </div>
-            <div class="row flex-row-reverse no-gutters">
-                <div class="col-lg-5">
-                    <div class="ab-banner">
-                    </div>
-                </div>
-                <div class="col-lg-7">
-                    <div class="bg-abt">
-                        <div class="container">
-                            <div class="title-desc  pb-sm-3">
-                                <h4 class="main-title-w3pvt">自我介绍</h4>
-                                <p>2003年5月30日 双子座</p>
-                            </div>
-                            <div class="row flex-column mt-lg-4 mt-3">
-                                <div class="abt-grid">
-                                    <div class="row">
-                                        <div class="col-sm-3">
-                                            <div class="abt-icon">
-                                                <span class="fa fa-ravelry"></span>
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-9 pl-sm-0">
-                                            <div class="abt-txt ml-sm-0">
-                                                <h4>学校专业 </h4>
-                                                <p>华东交通大学<br>经管学院 经济统计2021-1</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="abt-grid mt-4 pt-lg-2">
-                                    <div class="row">
-                                        <div class="col-sm-3">
-                                            <div class="abt-icon">
-                                                <span class="fa fa-laptop"></span>
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-9 pl-sm-0">
-                                            <div class="abt-txt ml-sm-0">
-                                                <h4>关于兴趣</h4>
-                                                <p>喜欢跳舞<br>想要用镜头记下所有美好<br>做自己喜欢的事是最快乐的</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="wthree-slide-btm pb-lg-5">
-        <div class="container pb-md-5 pb-4">
-            <div class="row no-gutters">
-                <div class="col-lg-5">
-                    <div class="slide-banner">
-                    </div>
-                </div>
-                <div class="col-lg-7">
-                    <div class="bg-abt ">
-                        <div class="container">
-                            <div class="title-desc  pb-sm-3">
-                                <h4 class="main-title-w3pvt"> 喜欢的艺人</h4>
-                                <p>&nbsp;努力 上进 正能量</p>
-                            </div>
-                            <div class="row flex-column mt-lg-4 mt-3">
-                                <div class="abt-grid">
-                                    <div class="row">
-                                        <div class="col-sm-3">
-                                            <div class="abt-icon">
-                                                <span class="fa fa-ravelry"></span>
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-9 pl-sm-0">
-                                            <div class="abt-txt ml-sm-0">
-                                                <h4>名侦探学院 </h4>
-                                                <p>一群长得帅的学霸<br>名校毕业生<br>代表作：密室大逃脱大神版 名侦探学院 森林进化论 跳进地理书的旅行</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- //about -->
-    <!-- slide -->    <!-- //slide -->
-    <!-- services -->
-    <div class="w3lspvt-about py-md-5 py-5" id="services">
-        <div class="container pt-lg-5">
-            <div class="title-desc text-center pb-3 pb-lg-5">
-                <h3 class="main-title-w3pvt">&nbsp;要加油呀！</h3>
-                <p>Inspired By Passion. Driven By Results.</p>
-            </div>
-            <div class="w3lspvt-about-row row  text-center pt-md-0 pt-5 mt-lg-5">
-                <div class="col-lg-4 col-sm-6 w3lspvt-about-grids">
-                    <div class="p-md-5 p-sm-3">
-                        <span class="fa fa-map-marker"></span>
-                        <h4 class="mt-2 mb-3">努力</h4>
-</div>
-                </div>
-                <div class="col-lg-4 col-sm-6 w3lspvt-about-grids  border-left border-right my-sm-0 my-5">
-                    <div class="p-md-5 p-sm-3">
-                        <span class="fa fa-check-circle-o"></span>
-                        <h4 class="mt-2 mb-3">上进</h4>
-</div>
-                </div>
-                <div class="col-lg-4 w3lspvt-about-grids">
-                    <div class="p-md-5 p-sm-3">
-                        <span class="fa fa-paw"></span>
-                        <h4 class="mt-2 mb-3">乐观</h4>
-</div>
-                </div>
-            </div>
-            <div class="w3lspvt-about-row border-top row text-center pt-md-0 pt-5 mb-lg-5 mt-md-0 mt-5">
-                <div class="col-lg-4 col-sm-6 w3lspvt-about-grids">
-                    <div class="p-md-5 p-sm-3 col-label">
-                        <span class="fa fa-tint"></span>
-                        <h4 class="mt-2 mb-3">坚持</h4>
-</div>
-                </div>
-                <div class="col-lg-4 col-sm-6 w3lspvt-about-grids mt-lg-0 mt-md-3 border-left border-right pt-sm-0 pt-5">
-                    <div class="p-md-5 p-sm-3 col-label">
-                        <span class="fa fa-handshake-o">
-                        </span>
-                        <h4 class="mt-2 mb-3">勇敢</h4>
-</div>
-                </div>
-                <div class="col-lg-4 w3lspvt-about-grids pt-md-0 pt-5">
-                    <div class="p-md-5 p-sm-3 col-label">
-                        <span class="fa fa-bar-chart"></span>
-                        <h4 class="mt-2 mb-3">快乐</h4>
-</div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- //services -->
-    <div class="tlinks">Collect from <a href="http://www.cssmoban.com/"  title="网站模板">网站模板</a></div>
-    <!-- stats -->    <!-- //stats -->
-    <!-- pricing plans -->    <!-- //pricing plans -->
-    <!-- team -->
-    
-    <!-- //team -->
-    <!-- portfolio -->
-    <section class="pt-lg-5" id="portfolio">
-        <div class="container-fluid">
-            <div class="title-desc text-center pb-3 pb-lg-5" >
-                <h3 class="main-title-w3pvt">&nbsp;视频分享</h3>
-                <p>Inspired By Passion. Driven By Results.</p>
-            </div>
-            <div class="row pb-sm-5 pb-3 text-center mt-lg-5">
-                <div class="col-lg-4 col-sm-6 port-grid">
-                    <a href="#gal1"></a>
-                </div>
-                <div class="col-lg-4 col-sm-6 port-grid">
-                    <a href="#gal2"></a>
-                </div>
-                <div class="col-lg-4 col-sm-6 port-grid">
-                    <a href="#gal3"></a>
-                </div>
-                <div class="col-lg-4 col-sm-6 port-grid mt-lg-4">
-                    <a href="#gal4"></a>
-                </div>
-                <div class="col-lg-4 col-sm-6 port-grid mt-lg-4">
-				<video src="20岁写真视频纪念.mp4" controls class="img-fluid img-thumbnail" alt=""></video>
-                <div class="col-lg-4 col-sm-6 port-grid mt-lg-4">
-                    <a href="#gal6"></a>
-                </div>
-                <div class="col-lg-4 col-sm-6 port-grid mt-lg-4">
-                    <a href="#gal7"></a>
-                </div>
-                <div class="col-lg-4 col-sm-6 port-grid mt-lg-4">
-                    <a href="#gal8"></a>
-                </div>
-                <div class="col-lg-4 col-sm-6 port-grid mt-lg-4">
-                    <a href="#gal9"></a>
-                </div>
-            </div>
-        </div>
-    </section>
-	<section class="team py-4 py-lg-5" id="team">
-        <div class="container py-lg-5 py-sm-4">
-            <div class="title-desc text-center pb-sm-3">
-                <h3 class="main-title-w3pvt">照片集</h3>
-                <p> my photos/memories </p>
-            </div>
-            <div class="row py-4 mt-lg-5  team-grid">
-                <div class="col-lg-4 col-sm-6">
-                    <div class="box13">
-                      <img src="images/88.jpg" class="img-fluid img-thumbnail" alt="" />                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6 mt-sm-0 mt-4">
-                    <div class="box13">
-                        <img src="images/99.jpg" class="img-fluid img-thumbnail" alt="" />                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6 mt-lg-0 mt-4">
-                    <div class="box13">
-                        <img src="images/10.jpg" class="img-fluid img-thumbnail" alt="" />                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6  mt-4">
-                    <div class="box13">
-                        <img src="images/44.jpg" class="img-fluid img-thumbnail" alt="" />                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6 mt-4">
-                    <div class="box13">
-                        <img src="images/66.jpg" class="img-fluid img-thumbnail" alt="" />                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6 mt-4">
-                    <div class="box13">
-                        <img src="images/77.jpg" class="img-fluid img-thumbnail" alt="" />                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- //portfolio -->
-    <!-- testimonials -->
-    <div class="testimonials py-lg-5 py-4" id="testi">
-        <div class="container">
-            <div class="title-desc text-center pb-3 pb-lg-5">
-                <h3 class="main-title-w3pvt">一些目标</h3>
-                <p>&nbsp;&nbsp;&nbsp;努力地去实现 加油我是最棒的</p>
-            </div>
-            <div class="row mt-lg-5">
-                <div class="col-lg-4">
-                    <div class="testimonials_grid">
-                        <div class="testi-text text-center">
-                            <p><span class="fa fa-quote-left"></span>现阶段认真地完成学业 在学校多学习一点东西<br>多做一些有意义的事情<br>过好每一天的大学生活<span class="fa fa-quote-right"></span>
-                            </p>
-                        </div>
-                        <div class="d-flex align-items-center justify-content-center">
-                            <div class="testi-desc">
-                                <span class="fa fa-user"></span>
-                                <h5>加油呀</h5>
-                                <p>冲冲冲</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="testimonials_grid my-lg-0 my-4">
-                        <div class="testi-text text-center">
-                            <p><span class="fa fa-quote-left"></span>在允许的时间里<br>和爸妈弟弟一起旅游<br>一起放松游玩<br>一起拍很多的照片<span class="fa fa-quote-right"></span>
-                            </p>
-                        </div>
-                        <div class="d-flex align-items-center justify-content-center">
-                            <div class="testi-desc">
-                                <span class="fa fa-user"></span>
-                                <h5>期待</h5>
-                                <p>！！！！</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="testimonials_grid">
-                        <div class="testi-text text-center">
-                            <p><span class="fa fa-quote-left"></span>在未来<br>想从事自己喜欢的工作<br>想多分出些时间来<br>做一些有意义的事<span class="fa fa-quote-right"></span>
-                            </p>
-                        </div>
-                        <div class="d-flex align-items-center justify-content-center">
-                            <div class="testi-desc">
-                                <span class="fa fa-user"></span>
-                                <h5>未来</h5>
-                                <p>一定很好</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row mt-4">
-                <div class="col-lg-4"> </div>
-                <div class="col-lg-4"> </div>
-                <div class="col-lg-4"> </div>
-            </div>
-        </div>
-    </div>
-    <!-- //testimonials -->
-    <!-- blog -->
-    <section class="blog_w3ls py-lg-5 pb-4" id="posts">
-        <div class="container py-sm-5 py-4">
-            <div class="title-desc text-center pb-sm-3 pb-lg-5">
-                <h3 class="main-title-w3pvt">二十岁纪念</h3>
-                <p>一些二十岁的小片段</p>
-            </div>
-            <div class="row mt-4">
-                <div class="blog-grids">
-                    <div class="container">
-                        <div class="row">
-                            <!-- blog grid -->
-                            <div class="col-lg-4 col-md-6">
-                                <div class="card border-0 med-blog">
-                                    <div class="card-header p-0">
-                                        <img class="card-img-bottom" src="images/01.jpg" alt="Card image cap">
-                                    </div>
-                                  <div class="card-body border border-top-0">
-                                        <h5 class="blog-title card-title m-0">做一个
-                                        </h5>
-                                    <p class="my-3">Cras ultricies ligula sed magna dictum porta auris blandita.</p>
-</div>
-                                </div>
-                            </div>
-                            <!-- //blog grid -->
-                            <!-- blog grid -->
-                            <div class="col-lg-4 col-md-6 mt-md-0 mt-5">
-                                <div class="card border-0 med-blog">
-                                    <div class="card-header p-0">
-                                        <img class="card-img-bottom" src="images/02.jpg" alt="Card image cap">
-                                    </div>
-                                  <div class="card-body border border-top-0">
-                                        <h5 class="blog-title card-title m-0">快乐的
-                                        </h5>
-                                    <p class="my-3">Cras ultricies ligula sed magna dictum porta auris blandita.</p>
-</div>
-                                </div>
-                            </div>
-                            <!-- //blog grid -->
-                            <!-- blog grid -->
-                            <div class="col-lg-4 col-md-6 mt-lg-0 mt-5">
-                                <div class="card border-0 med-blog">
-                                    <div class="card-header p-0">
-                                        <img class="card-img-bottom" src="images/03.jpg" alt="Card image cap">
-                                    </div>
-                                  <div class="card-body border border-top-0">
-                                        <h5 class="blog-title card-title m-0">小熊软糖
-                                        </h5>
-                                    <p class="my-3">Cras ultricies ligula sed magna dictum porta auris blandita.</p>
-</div>
-                                </div>
-                            </div>
-                            <!-- //blog grid -->
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- //blog -->
-    <!-- slide -->    <!-- //slide -->
-    <!-- contact -->
-    <section class="contact-wthree py-sm-5 py-4" id="contact">
-        <div class="container pt-lg-5">
-            <div class="title-desc text-center pb-sm-3">
-                <h3 class="main-title-w3pvt">个人信息</h3>
-                <p>Inspired By Passion. Driven By Results.</p>
-            </div>
-            <div class="row mt-4">
-                <div class="col-lg-5 text-center">
-<div class="row flex-column">
-            <div class="contact-w3">
-                            <span class="fa fa-envelope-open  mb-3"></span>
-                            <div class="d-flex flex-column">
-                                
-                              <a href="mailto:example@email.com" class="my-2 d-block">2034309488@qq.com</a>
-                                <a href="mailto:example@email.com">2034309488@qq.com</a>
-              </div>
-                        </div>
-                        <div class="contact-w3 my-4">
-                            <span class="fa fa-phone mb-3"></span>
-                            <div class="d-flex flex-column">
-                                <p>18370031903</p>
-								<p>18370031903</p>
-                   
-                            </div>
-                        </div>
-                        <div class="contact-w3">
-                            <span class="fa fa-home mb-3"></span>
-                            <address>山西省 <br>运城市 临猗县<br>-------------------</address>
-                        </div>
-                    </div>
-
-                </div>
-                <div class="col-lg-7">
-<div class="contact-form-wthreelayouts">
-            <form action="#" method="post" class="register-wthree">
-                            <div class="form-group">
-                                <label>
-                                    姓名
-                              </label>
-                                <input class="form-control" type="text" placeholder="吴晓雪" name="email" required="">
-                            </div>
-                            <div class="form-group">
-                                <label>
-                                    电话
-                              </label>
-                                <input class="form-control" type="text" placeholder="13467245872" name="email" required="">
-                            </div>
-                            <div class="form-group">
-                                <label>
-                                    邮箱
-                              </label>
-                                <input class="form-control" type="email" placeholder="2034309488@qq.com" name="email"
-                                    required="">
-                            </div>
-                            <div class="form-group">
-                                <label>
-                                    寄语
-                              </label>
-                                <textarea placeholder="一切都是最好的安排" class="form-control"></textarea>
-                            </div>
-                            <div class="form-group mb-0"> </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- //contact -->
-    <!-- footer -->
-    <footer class="cpy-right bg-theme text-center">
-        <div class="container">
-            <a href="#home" class="move-top text-center"><span class="fa fa-angle-double-up" aria-hidden="true"></span></a>
-            <div class="footer-logo">
-                <h2>&nbsp; </h2>
-            </div>
-            <div class="wthree-social">
-                <ul>
-                    <li>
-                        <a href="#">
-                            <span class="fa fa-facebook-f icon_facebook"></span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <span class="fa fa-twitter icon_twitter"></span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <span class="fa fa-dribbble icon_dribbble"></span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <span class="fa fa-google-plus icon_g_plus"></span>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </footer>
-    <div class="text-center py-3"> </div>
-    <!-- //footer -->
-    <!-- popup-->
-    <div id="gal1" class="pop-overlay animate">
-        <div class="popup">
-            <img src="images/g2.jpg" alt="Popup Image" class="img-fluid" />
-            <p class="mt-4">Nulla viverra pharetra se, eget pulvinar neque pharetra ac int. placerat placerat dolor.</p>
-            <a class="close" href="#portfolio_wthree">&times;</a>
-        </div>
-    </div>
-    <!-- //popup -->
-    <!-- popup-->
-    <div id="gal2" class="pop-overlay animate">
-        <div class="popup">
-            <img src="images/g3.jpg" alt="Popup Image" class="img-fluid" />
-            <p class="mt-4">Nulla viverra pharetra se, eget pulvinar neque pharetra ac int. placerat placerat dolor.</p>
-            <a class="close" href="#portfolio_wthree">&times;</a>
-        </div>
-    </div>
-    <!-- //popup -->
-    <!-- popup-->
-    <div id="gal3" class="pop-overlay animate">
-        <div class="popup">
-            <img src="images/g4.jpg" alt="Popup Image" class="img-fluid" />
-            <p class="mt-4">Nulla viverra pharetra se, eget pulvinar neque pharetra ac int. placerat placerat dolor.</p>
-            <a class="close" href="#portfolio_wthree">&times;</a>
-        </div>
-    </div>
-    <!-- //popup3 -->
-    <!-- popup-->
-    <div id="gal4" class="pop-overlay animate">
-        <div class="popup">
-            <img src="images/g5.jpg" alt="Popup Image" class="img-fluid" />
-            <p class="mt-4">Nulla viverra pharetra se, eget pulvinar neque pharetra ac int. placerat placerat dolor.</p>
-            <a class="close" href="#portfolio_wthree">&times;</a>
-        </div>
-    </div>
-    <!-- //popup -->
-    <!-- popup-->
-    <div id="gal5" class="pop-overlay animate">
-        <div class="popup">
-            <img src="images/g6.jpg" alt="Popup Image" class="img-fluid" />
-            <p class="mt-4">Nulla viverra pharetra se, eget pulvinar neque pharetra ac int. placerat placerat dolor.</p>
-            <a class="close" href="#portfolio_wthree">&times;</a>
-        </div>
-    </div>
-    <!-- //popup -->
-    <!-- popup-->
-    <div id="gal6" class="pop-overlay animate">
-        <div class="popup">
-            <img src="images/g1.jpg" alt="Popup Image" class="img-fluid" />
-            <p class="mt-4">Nulla viverra pharetra se, eget pulvinar neque pharetra ac int. placerat placerat dolor.</p>
-            <a class="close" href="#portfolio_wthree">&times;</a>
-        </div>
-    </div>
-    <!-- //popup -->
-    <!-- popup-->
-    <div id="gal7" class="pop-overlay animate">
-        <div class="popup">
-            <img src="images/g4.jpg" alt="Popup Image" class="img-fluid" />
-            <p class="mt-4">Nulla viverra pharetra se, eget pulvinar neque pharetra ac int. placerat placerat dolor.</p>
-            <a class="close" href="#portfolio_wthree">&times;</a>
-        </div>
-    </div>
-    <!-- //popup -->
-    <!-- popup-->
-    <div id="gal8" class="pop-overlay animate">
-        <div class="popup">
-            <img src="images/g2.jpg" alt="Popup Image" class="img-fluid" />
-            <p class="mt-4">Nulla viverra pharetra se, eget pulvinar neque pharetra ac int. placerat placerat dolor.</p>
-            <a class="close" href="#portfolio_wthree">&times;</a>
-        </div>
-    </div>
-    <!-- //popup -->
-    <!-- popup-->
-    <div id="gal9" class="pop-overlay animate">
-        <div class="popup">
-            <img src="images/g3.jpg" alt="Popup Image" class="img-fluid" />
-            <p class="mt-4">Nulla viverra pharetra se, eget pulvinar neque pharetra ac int. placerat placerat dolor.</p>
-            <a class="close" href="#portfolio_wthree">&times;</a>
-        </div>
-    </div>
-    <!-- //popup -->
 </body>
-
 </html>
-
